@@ -1,0 +1,209 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+    background-color: black;
+    color: seashell;
+  }
+
+/*Header Section*/
+
+.header {
+    height: 69px;
+    display:block;
+    border-bottom: 1px solid seashell;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header img {
+    margin-left: 10px;
+    height: 50px;
+    display:block;
+    margin-top: auto;
+    margin-bottom: auto;
+    float: left;
+}
+.header li{
+    list-style: none;
+    color:seashell;
+    display: inline-block;
+    font-size: 22px;
+    vertical-align: middle;
+    margin: 15px 10px 0 0;
+}
+.header li a{
+    text-decoration: underline;
+    color: seashell;
+    margin-right: 10px;
+    display: inline;
+}
+.header ul{
+    text-align: right;
+}
+  
+  
+  /*Sizing*/
+  
+  .container {
+    margin: 0 auto;
+  }
+  
+  .spacer {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .main {
+      background-color: #ffffff;
+  }
+  .image-container {
+    overflow: hidden;
+  }
+  .image-container img{
+    width: 100%;
+    display: block;
+  }
+  
+  
+  /*Jumbotron Section*/
+  
+  .jumbotron {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .jumbotron .container{
+      position: relative;
+      width: 100%;
+  }
+  .jumbotron img{
+    max-height: 700px;
+    width: 100%;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+.jumbotron .text-box{
+    display: block;
+    width: 1200px;
+    position: absolute;
+    bottom: 320px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+  .jumbotron h2 {
+    color: white;
+    text-align: center;
+    padding: 0;
+  }
+  .jumbotron h4 {
+      text-align: center;
+      color: white;
+      padding: 0;
+  }
+  /*Van type Section*/
+  .container2 {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .container2 h2{
+      text-align: center;
+  }
+  .container2 h3{
+    text-align: center;
+  }
+
+.vantypes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.feature {
+    flex: 1;
+    padding: 2rem;
+    margin: 0px 1.25rem;
+    background-color: black;
+  }
+.vantypes .image-container {
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.vantypes img{
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+    object-fit: cover;
+}
+.vantypes .content h2{
+    text-align: center;
+    margin-top: 0;
+    font-size: 22px;
+}
+
+/*Locations*/
+.staff {
+    width:100%;
+}
+.staff h2{
+    text-align: center;
+}
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*background-image: url(file:///C:/Users/giant/Documents/Coding/PROJECTS/Flexbox%20tea%20shop/resources/img-locations-background.webp);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;*/
+}
+.container3 .center {
+    flex: 2;
+    padding: 2rem;
+    margin: 0px 1.25rem;
+    background-color: black;
+  }
+.container3 .content h2{
+    text-align: center;
+}
+.container3 .content h4{
+    text-align: center;
+}
+.container3 .image-container{
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+}
+.container3 img{
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+    object-fit: cover;
+}
+
+ 
+  /*Footer Section*/
+  .upperfooter{
+      height: 200px;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  .upperfooter h2{
+    color: seashell;
+    text-align: center;
+  }
+  .upperfooter h5{
+      color: seashell;
+      text-align: center;
+  }
+  
+  .footer p {
+    font-size:12px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: seashell;
+  }
